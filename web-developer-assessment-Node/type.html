@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.29/browser.js"></script>
+    <script type="text/babel">
+
+        const proxyurl = "https://cors-anywhere.herokuapp.com/"; const getProductList = () => fetch(proxyurl + 'https://m.lowes.com/CatalogServices/product/nvalue/' + 'v1_0?nValue=4294857975&maxResults=20&showURL=1&rollUpVariants' + '=1&showUrl=true&storeNumber=0595&priceFlag=rangeBalance&showMarketingBullets=1')
+        .then(res => res.json()); const brandNames = () => getProductList() .then(json => json.productList) .then(productList => productList.map(p => p.networkPrice)) .then(brands => brands.join(', ')); brandNames() .then(items => document.getElementById('container').innerHTML=items);
+
+    </script>
+    <title>Loading Data with Fetch</title>
+    <div id="container">
+    </div>
+
+    <div id="container">
+    </div>
+
+    <div id="container">
+    </div>
+
+</head>
+
+<body>
+</body>
+
+</html>

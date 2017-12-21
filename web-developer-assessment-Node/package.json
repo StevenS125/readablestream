@@ -1,0 +1,14 @@
+{
+    "name": "web-developer-assessment-node",
+    "version": "1.0.0",
+    "description": "node assessment for lowes thru teksystems",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "steven snyder",
+    "license": "MIT",
+    "dependencies": {
+        "hapi": "^17.1.1"
+    }
+}
