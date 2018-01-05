@@ -10,6 +10,7 @@ const getProductList = function() {
         .then(function(res) {
             return res.json()
 
+
         })
 
 
