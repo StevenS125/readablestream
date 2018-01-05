@@ -1,87 +1,122 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
 #container {
-    grid-column: 1;
-    grid-row: 1;
-    color: red;
+    width: 90%;
+    height: 100%;
+    margin: auto;
 }
 
-#second {
-    grid-column: 2;
-    grid-row: 1;
+#hero {
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98% !important;
+    height: 200px;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding: 20px;
 }
 
-.three {
-    grid-column: 3;
-    grid-row: 1;
+.defaultcontainer {
+    background-color: #ffffff;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    width: 25% !important;
+    border: 1px solid #cccccc;
+    height: 250px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-family: Helvetica-Bold;
 }
 
-.four {
-    grid-column: 4;
-    grid-row: 1;
+img {
+    margin: auto;
+    height: 100px;
+    width: 100px;
 }
 
-.five {
-    grid-column: 1;
-    grid-row: 2;
+button {
+    width: 30px;
+    height: 10px;
 }
 
-.six {
-    grid-column: 2;
-    grid-row: 2;
+#herodefaults {
+    float: left;
+    width: 22% !important;
+    border: 1px solid #cccccc;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    color: #333333;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica-Bold;
 }
 
-.seven {
-    grid-column: 3;
-    grid-row: 2;
+#defaultDiv {
+    width: 100% !important;
+    height: 200px;
+    border: 1px solid #cccccc;
+    overflow: auto;
 }
 
-.eight {
-    grid-column: 4;
-    grid-row: 2;
+#hiddenid {
+    visibility: hidden;
 }
 
-.nine {
-    grid-column: 1;
-    grid-row: 3;
+.descript {
+    width: auto;
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
-.ten {
-    grid-column: 2;
-    grid-row: 3;
+#priceFont {
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
-.eleven {
-    grid-column: 3;
-    grid-row: 3;
+.mainButton {
+    background-color: #ffffff;
+    height: 44px;
+    width: 100%;
+    margin: auto;
+    color: #0471Af
 }
 
-.twelve {
-    grid-column: 4;
-    grid-row: 3;
+.heroButton {
+    background-color: #338700;
+    height: 44px;
+    width: 100%;
+    color: #ffffff
 }
 
-.thirteen {
-    grid-column: 1;
-    grid-row: 4;
+#heroRight {
+    float: right;
+    width: 25%;
+    height: 100%;
+    display: block;
 }
 
-.fourteen {
-    grid-column: 2;
-    grid-row: 4;
+#heroProd {
+    float: left;
+    width: 25%;
+    color: #333333 100%;
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
-.fifteen {
-    grid-column: 3;
-    grid-row: 4;
-}
-
-.sixteen {
-    grid-column: 4;
-    grid-row: 4;
+#priceRemo {
+    float: left;
+    width: 25%;
+    color: #333333 100%;
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
 }
