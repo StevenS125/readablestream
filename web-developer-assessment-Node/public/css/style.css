@@ -1,0 +1,352 @@
+#container {
+    width: 90%;
+    height: 100%;
+    float: left;
+    padding: 0px 40px;
+    margin: auto;
+}
+
+#hero {
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    outline: 1px solid #cccccc;
+    outline-offset: -10px;
+    width: 100% !important;
+    height: 280px;
+    overflow: auto;
+    float: left;
+    margin: auto;
+}
+
+.defaultcontainer {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 30px;
+    outline: 1px solid #cccccc;
+    outline-offset: -10px;
+    float: left;
+    width: 25% !important;
+    height: 350px;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: auto;
+}
+
+.img {
+    margin: auto;
+}
+
+button {
+    width: 30px;
+    height: 10px;
+}
+
+#defaultDiv {
+    width: 100% !important;
+    height: 200px;
+    border: 1px solid #cccccc;
+    overflow: auto;
+}
+
+#hiddenid {
+    visibility: hidden;
+}
+
+.descript {
+    width: auto;
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    height: 70px;
+    text-align: left;
+}
+
+.heroBullet {
+    width: auto;
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#priceFont {
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.mainButton {
+    background-color: #ffffff;
+    height: 44px;
+    width: 100%;
+    margin: auto;
+    color: #0471Af
+}
+
+.heroButton {
+    background-color: #338700;
+    height: 44px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#heroRight {
+    float: right;
+    width: 25%;
+    height: 100%;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#heroProd {
+    float: left;
+    width: 25%;
+    color: #333333 100%;
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#priceRemo {
+    float: left;
+    width: 25%;
+    color: #333333 100%;
+    font-size: 22px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#herocart {
+    background-color: #338700;
+    height: 44px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#heroaddcart {
+    background-color: #338700;
+    height: 44px;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.heroImageClass {
+    display: none !important;
+}
+
+.markBull {
+    display: none !important;
+}
+
+#heroDisp {
+    float: left;
+    margin-right: 10px;
+}
+
+#secondHero {
+    float: left;
+    margin-right: 10px;
+}
+
+#heroDesc {
+    width: auto;
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#secondDesc {
+    width: auto;
+    color: #333333 100%;
+    opacity: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#heroBullet {
+    color: #333333 100%;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#secondBull {
+    color: #333333 100%;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+li {
+    margin: 10px;
+    font-weight: normal;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 480px) {
+    #container {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 0px 5px;
+        margin: auto;
+    }
+    #hero {
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100% !important;
+        height: 430px;
+        overflow: auto;
+        padding: 20px;
+        position: relative;
+    }
+    #secondHero {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 10px;
+        height: 150px;
+        width: 150px;
+        float: left;
+    }
+    #heroDisp {
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 10px;
+        height: 150px;
+        width: 150px;
+        float: left;
+    }
+    .defaultcontainer {
+        box-sizing: border-box;
+        background-color: #ffffff;
+        padding: 30px;
+        outline: 1px solid #cccccc;
+        outline-offset: -10px;
+        float: left;
+        width: 100% !important;
+        height: 190px;
+        text-align: center;
+        color: #333333;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    img {
+        float: left;
+        margin: auto;
+    }
+    .mainButton {
+        background-color: #ffffff;
+        height: 30px;
+        color: #0471Af;
+        float: right;
+        width: 60%;
+    }
+    .descript {
+        color: #333333 100%;
+        opacity: 100%;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-weight: bold;
+        height: auto;
+        margin: 0px;
+    }
+    #priceFont {
+        color: #333333 100%;
+        opacity: 100%;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    #secondDesc {
+        width: 100%;
+        color: #333333 100%;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    #heroDesc {
+        width: 100%;
+        color: #333333 100%;
+        font-size: 12px;
+        font-family: Helvetica;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    #priceRemo {
+        float: right;
+        width: 100%;
+        color: #333333 100%;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    #heroProd {
+        float: right;
+        width: 100%;
+        color: #333333 100%;
+        font-size: 16px;
+        font-family: Helvetica;
+        font-weight: bold;
+    }
+    #heroRight {
+        width: 80%;
+        height: auto;
+        display: block;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        position: absolute;
+        bottom: 0;
+    }
+    #heroBullet {
+        display: block;
+        color: #333333 100%;
+        text-overflow: ellipsis;
+        font-size: 10px;
+        font-family: Helvetica;
+        font-weight: bold;
+        width: 100%;
+    }
+    #secondBull {
+        display: block;
+        color: #333333 100%;
+        text-overflow: ellipsis;
+        font-size: 10px;
+        font-family: Helvetica;
+        width: 100%;
+    }
+}

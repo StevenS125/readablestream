@@ -1,23 +1,14 @@
-'use strict';
-
-const Hapi = require('hapi');
-
-
-const server = new Hapi.Server({ port: 3000, host: 'localhost' });
-
-server.route({
-    method: 'GET',
-    path: '/',
-    handler: function(request, reply) {
-        reply('Hello, world!');
-    }
-});
+var express = require('express');
+var app = express();
+var path = require("path");
 
 
-server.start((err) => {
+app.use(express.static('public'))
 
-    if (err) {
-        throw err;
-    }
-    console.log(`Server running at: ${server.info.uri}`);
-});
+
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname, "/public/map.html"));
+})
+
+app.listen(3000)

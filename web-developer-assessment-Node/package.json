@@ -9,6 +9,7 @@
     "author": "steven snyder",
     "license": "MIT",
     "dependencies": {
-        "hapi": "^17.1.1"
+        "hapi": "^17.1.1",
+        "express": "^4.16.2"
     }
 }
